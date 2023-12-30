@@ -14,7 +14,6 @@ class FillstructCommand(sublime_plugin.TextCommand):
 		output = ""
 		try:
 			output = subprocess.check_output(cmd, shell=True, stderr=subprocess.STDOUT, universal_newlines=True)
-			# print("[fillstruct debug] command output: " + output)
 		except subprocess.CalledProcessError as e:
 		    print(f'Error running fillstruct: {e}'); sublime.status_message(f'Error running fillstruct: {e}'); return;
 		
