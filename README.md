@@ -1,12 +1,12 @@
-# sublime-fillstruct
-golang fillstruct for sublime text
+## sublime-fillstruct
+golang fillstruct for sublime text built on [reftools](https://github.com/davidrjenni/reftools).
 
 > Place the **cursor between the curly braces** for a correct autofill.
 > This should sync with autocomplete cursor positioning
 
 ![gif](https://raw.githubusercontent.com/twoojoo/sublime-fillstruct/main/fillstruct.gif)
 
-## install
+### install
 
 ```bash
 go install github.com/davidrjenni/reftools/cmd/fillstruct@latest
@@ -16,7 +16,7 @@ git clone git@github.com:twoojoo/sublime-fillstruct.git
 cp ./fillstruct.py ~/.config/sublime-text/Packages/User
 ```
 
-## kebinding
+### kebinding
 
 Just add the commad to your keybindings
 ```json5
