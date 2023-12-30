@@ -4,7 +4,7 @@ golang fillstruct for sublime text
 > Place the **cursor between the curly braces** for a correct autofill.
 > This should sync with autocomplete cursor positioning
 
-![](https://github.com/twoojoo/sublime-fillstruct/fillstruct.gif)
+![gif](https://github.com/twoojoo/sublime-fillstruct/fillstruct.gif)
 
 ## install
 
