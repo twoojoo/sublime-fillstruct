@@ -13,7 +13,7 @@ go install github.com/davidrjenni/reftools/cmd/fillstruct@latest
 
 git clone git@github.com:twoojoo/sublime-fillstruct.git
 
-cp ./fillstruct.py ~/.config/sublime-text/Packages/User
+cp ./sublime-fillstruct/fillstruct.py ~/.config/sublime-text/Packages/User
 ```
 
 ### kebinding
