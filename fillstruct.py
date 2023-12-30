@@ -9,7 +9,6 @@ class FillstructCommand(sublime_plugin.TextCommand):
 		pos = self.view.sel()[0].begin();
     
 		cmd = "fillstruct -file " + self.view.file_name() + " -offset " + str(pos)
-		# print("[fillstruct debug] running command: " + cmd)
 
 		output = ""
 		try:
