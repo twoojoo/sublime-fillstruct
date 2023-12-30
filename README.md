@@ -1,6 +1,9 @@
 # sublime-fillstruct
 golang fillstruct for sublime text
 
+> place the **cursor between the curly braces** for a correct autofill
+> should sync with autocomplete cursor positioning
+
 ## install
 
 ```bash
