@@ -1,5 +1,5 @@
 ## sublime-fillstruct
-golang fillstruct for sublime text built on [reftools](https://github.com/davidrjenni/reftools).
+Simple golang fillstruct plugin for sublime text built on [reftools](https://github.com/davidrjenni/reftools).
 
 > Place the **cursor between the curly braces** for a correct autofill.
 > This should sync with autocomplete cursor positioning
