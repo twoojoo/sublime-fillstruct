@@ -13,8 +13,8 @@ cp ./fillstruct.py ~/.config/sublime-text/Packages/User
 Just add the commad to your keybindings
 ```json
 [
-  ...
+  /* ... */
   {"keys": ["ctrl+alt+f"], "command": "fillstruct"},
-  ...
+  /* ... */
 ]
 ```
