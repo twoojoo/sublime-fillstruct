@@ -11,10 +11,10 @@ cp ./fillstruct.py ~/.config/sublime-text/Packages/User
 ## kebinding
 
 Just add the commad to your keybindings
-```json
+```json5
 [
-  /* ... */
+  //...
   {"keys": ["ctrl+alt+f"], "command": "fillstruct"},
-  /* ... */
+  //...
 ]
 ```
